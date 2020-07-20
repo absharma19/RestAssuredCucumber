@@ -1,0 +1,109 @@
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "phone": "+91-9993261223",
+    "name": "Gaurav Mishra",
+    "id": null,
+    "email": "Gaurav.mishra72@yahoo.com",
+    "username": "gauravm"
+}
+HTTP/1.1 201 Created
+Date: Mon, 18 May 2020 10:31:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 135
+Connection: keep-alive
+Set-Cookie: __cfduid=daf1654d259adae9084755f6bcbc537e61589797872; expires=Wed, 17-Jun-20 10:31:12 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"87-U0PrT2I3+7XWpjSV2Hp/Iw1yzwM"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5954e83cfef2e135-BOM
+cf-request-id: 02c8ef7a1b0000e13536be0200000001
+
+{
+    "phone": "+91-9993261223",
+    "name": "Gaurav Mishra",
+    "id": 11,
+    "email": "Gaurav.mishra72@yahoo.com",
+    "username": "gauravm"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users?id=1
+Proxy:			<none>
+Request params:	id=1
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 18 May 2020 10:31:35 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d35a3e53ed4f8aa3dc0932db01ebff43e1589797895; expires=Wed, 17-Jun-20 10:31:35 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+X-Powered-By: Express
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=14400
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"22f-l/Eoj4zYmvire0cm5iBTWDS+4F8"
+Via: 1.1 vegur
+CF-Cache-Status: HIT
+Age: 4495
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5954e8cbcb55e15a-BOM
+Content-Encoding: gzip
+cf-request-id: 02c8efd35b0000e15a94176200000001
+
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
